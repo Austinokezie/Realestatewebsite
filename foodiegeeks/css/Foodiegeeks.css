@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: none;
+    text-decoration: none;
+}
+
+
+header {
+    background-image: url('../foodiegeeksimgs/background\ header\ img.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* backdrop-filter: blur(2px); */
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+
+
+}
+
+.header-content h2 {
+    font-size: 6vmin;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.header-content h1 {
+
+    font-weight: 400;
+}
+
+.header-content a {
+    text-decoration: none;
+    background: green;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.stars {
+    color: #FFD700;
+    margin-right: 10px;
+    font-size: 2vmin;
+
+}
+
+.ul li {
+    text-decoration: none;
+}
+
+#buy:hover {
+    transform: scale(1.2);
+
+}
